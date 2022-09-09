@@ -1,9 +1,9 @@
-/* TODO: Label selector type */
+/* Sets font for whole page  */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
-/* TODO: Label selector type */
+/* sets background for general page */
 body {
   background-color: lemonchiffon;
 }
@@ -22,12 +22,12 @@ figure {
   background-color: #f0ead6;
 }
 
-/* TODO: Label selector type */
+/* Makes text below picture bold*/
 .highlighted-text {
   font-weight: bolder;
 }
 
-/* TODO: Label selector type */
+/* Selects just the bottom section*/
 #contact-section {
   background-color: #f0ead6;
 }

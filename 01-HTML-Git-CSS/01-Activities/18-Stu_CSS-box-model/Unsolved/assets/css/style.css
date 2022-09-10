@@ -1,15 +1,18 @@
+/* Added the margin tags*/
 section {
   width: 600px;
   height: 600px;
   text-align: center;
   border: 15px solid black;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+/*Added the margin padding and border */
 img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
-  /* TODO: Add a margin property */
-  /* TODO: Add a padding property */
-  /* TODO: Add a border property */
+  margin: 2em ;
+  padding: 5px;
+  border:solid blue 10px;
 }

@@ -14,19 +14,25 @@ ul {
 
 /* List items in navigation bar */
 li {
-  /* TODO: Add your code here */
+  /* Added Display:inline-block */
   list-style-type: none;
   font-size: 40px;
+  display: inline-block;
 }
 
 /* Boxes */
 img {
   /* TODO: Add your code here */
   margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  ;
 }
 
 #item-1 {
-  background-color: #e0115f;
+  background-color: #e0115f;;
 }
 
 #item-2 {
@@ -37,8 +43,7 @@ img {
   background-color: #999900;
 }
 
-/* Box 3 */
+/* Removed that funky bit at hiding it */
 #image-3 {
-  /* TODO: Add your code here */
-  display: none;
+  
 }

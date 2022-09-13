@@ -52,6 +52,6 @@ header {
 /* Box 2 in Square 2 */
 #absolute-box-2 {
   position: absolute;
-  right: 25% ;
-  top: 60%;
+  left: 1200px ;
+  top: 900px;
 }

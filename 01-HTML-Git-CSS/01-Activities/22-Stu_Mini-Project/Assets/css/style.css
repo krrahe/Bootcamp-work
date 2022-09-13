@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+header{
+background-color: red;
+line-height: 10px;
+height: 60px;
+position: fixed;
+display: inline;
+
+}
+
+#main{
+background-color: blue;
+align-items: center;
+text-align: center;
+margin: 5px;
+border: solid black 1em;
+height: 600px;
+}
+
+#contact{
+background-color: aqua;
+display: inline;
+text-align: center;
+list-style-type: none;
+}
+footer{
+  text-align: center;
+  color: white;
+  background-color: forestgreen;
+  height: 60px;
+}
+#info{
+  border:solid blue 10px;
+}

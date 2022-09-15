@@ -8,7 +8,8 @@ background-color: red;
 line-height: 10px;
 height: 60px;
 position: fixed;
-display: inline;
+width: 900px;
+text-align: end;
 
 }
 
@@ -32,6 +33,7 @@ footer{
   color: white;
   background-color: forestgreen;
   height: 60px;
+  border: solid 1em black;
 }
 #info{
   border:solid blue 10px;

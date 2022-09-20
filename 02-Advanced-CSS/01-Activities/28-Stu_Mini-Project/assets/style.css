@@ -8,7 +8,7 @@
     background-color: darkslategrey;
 }
 
-h1{
+h1,h2{
     text-align: center;
 }
 p{
@@ -18,6 +18,9 @@ div{
     border: dotted white;
     padding: 1em;
     margin: 1em;
+}
+h2{
+    border: solid 3px black;
 }
 .box{
     display: flex;

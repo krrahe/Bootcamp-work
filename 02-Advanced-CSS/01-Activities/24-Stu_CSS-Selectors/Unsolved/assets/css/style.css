@@ -69,6 +69,9 @@ footer {
 }
 
 /* TODO: Add code here to select all <a> elements that link to a file with a `.css` extension */
+[href$=".css"]::after{
+  content: "\1F4DD";
+}
 
 @media screen and (max-width: 768px) {
   header {

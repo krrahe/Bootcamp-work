@@ -1,0 +1,32 @@
+:root{
+    --1:25%;
+    --2:50%;
+    --3:100%;
+}
+
+*{
+    background-color: darkslategrey;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+div{
+    border: dotted white;
+    padding: 1em;
+    margin: 1em;
+}
+.box{
+    display: flex;
+        flex-direction: row;
+        Flex-wrap: wrap;
+        align-items: center;
+}
+
+.word{
+    height: var(--1);
+    width: var(--1);
+}

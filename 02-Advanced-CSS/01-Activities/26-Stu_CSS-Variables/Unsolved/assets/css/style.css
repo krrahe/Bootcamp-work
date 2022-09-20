@@ -1,3 +1,10 @@
+:root{
+  --1: #13293d;
+  --2:#d8a47f;
+  --3:blue;
+  --4:100%
+}
+
 body {
   font-size: 16px;
   display: flex;
@@ -19,17 +26,17 @@ h2 {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
+  background: var(--1);
   color: #fff;
 }
 
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: var(--2);
 }
 
 nav a {
-  color: #13293d;
+  color:white;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -45,7 +52,7 @@ main {
 }
 
 footer {
-  width: 100%;
+  width: var(--4);
   bottom: 0;
   padding: 20px;
   text-align: center;
@@ -56,7 +63,7 @@ footer {
 
 .products {
   flex: 1;
-  background-color: #fff;
+  background-color:white;
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -84,7 +91,7 @@ footer {
 }
 
 .card > img {
-  width: 100%;
+  width: var(--4);
 }
 
 @media screen and (max-width: 768px) {
